@@ -1,6 +1,6 @@
 # AI Health & Fitness Planner Agent 🏋️‍♂️
 
-The **AI Health & Fitness Planner** is a personalized health and fitness Agent powered by Phidata's AI Agent framework. This app generates tailored dietary and fitness plans based on user inputs such as age, weight, height, activity level, dietary preferences, and fitness goals.
+The **AI Health & Fitness Planner** is a personalized health and fitness Agent powered by Agno AI Agent framework. This app generates tailored dietary and fitness plans based on user inputs such as age, weight, height, activity level, dietary preferences, and fitness goals.
 
 ## Features
 
@@ -24,7 +24,7 @@ The **AI Health & Fitness Planner** is a personalized health and fitness Agent p
 
 The application requires the following Python libraries:
 
-- `phidata`
+- `agno`
 - `google-generativeai`
 - `streamlit`
 
@@ -47,7 +47,7 @@ Before anything else, Please get a free Gemini API Key provided by Google AI her
     ```
 3. **Run the Streamlit app**
     ```bash
-    streamlit run ai_health-fitness_agent/health_agent.py
+    streamlit run health_agent.py
     ```
 
 
